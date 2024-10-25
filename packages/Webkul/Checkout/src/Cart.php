@@ -103,7 +103,7 @@ class Cart
             return;
         }
 
-        $cartTemp = new \stdClass();
+        $cartTemp = new \stdClass;
         $cartTemp->id = $this->cart->id;
 
         session()->put('cart', $cartTemp);
@@ -753,6 +753,10 @@ class Cart
 
         if (core()->getConfigData('sales.order_settings.minimum_order.include_discount_amount')) {
             $minimumOrderAmount -= $this->cart->tax_total;
+
+            if ($this->cart->discount_amount) {
+                $minimumOrderAmount -= $this->cart->discount_amount;
+            }
         }
 
         return $minimumOrderAmount;
