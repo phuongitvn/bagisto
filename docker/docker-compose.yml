@@ -1,0 +1,56 @@
+services:
+    bagisto_php:
+        build: php
+        container_name: bagisto-php-app
+        working_dir: /var/www/html/app
+        volumes:
+            - ../:/var/www/html/app/
+        networks:
+            - app-network
+
+    bagisto_nginx:
+        image: nginx:alpine
+        container_name: bagisto-nginx-app
+        restart: always
+        ports:
+            - 80:80
+            - 443:443
+        volumes:
+            - ../:/var/www/html/app/
+            - ./nginx/conf.d/:/etc/nginx/conf.d/
+            - ./nginx/certs/:/etc/ssl/certs/
+        networks:
+            - app-network
+
+    bagisto_db:
+        build: mysql
+        container_name: bagisto-mysql-app
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_USER: ${DB_USERNAME}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
+        env_file:
+            - ./.env
+        command:
+              [
+                "--character-set-server=utf8mb4",
+                "--collation-server=utf8mb4_unicode_ci",
+                "--default-authentication-plugin=caching_sha2_password",
+                "--skip-name-resolve",
+                "--sql-mode=STRICT_TRANS_TABLES"
+              ]
+        restart: always
+        ports:
+              - 3306:3306
+        volumes:
+            - db_volume:/var/lib/mysql
+            - ./mysql:/data
+        networks:
+            - app-network
+            
+networks:
+    app-network:
+        driver: bridge
+volumes:
+    db_volume: {}

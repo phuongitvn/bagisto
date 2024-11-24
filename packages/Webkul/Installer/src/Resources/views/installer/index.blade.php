@@ -39,6 +39,7 @@
 
     @php
         $locales = [
+            'vi'    => 'Vietnam',
             'ar'    => 'arabic',
             'bn'    => 'bengali',
             'de'    => 'german',

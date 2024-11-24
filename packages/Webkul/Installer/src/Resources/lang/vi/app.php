@@ -4,125 +4,125 @@ return [
     'seeders' => [
         'attribute' => [
             'attribute-families' => [
-                'default' => 'Default',
+                'default' => 'Mặc định',
             ],
 
             'attribute-groups' => [
-                'description'       => 'Description',
-                'general'           => 'General',
-                'inventories'       => 'Inventories',
-                'meta-description'  => 'Meta Description',
-                'price'             => 'Price',
-                'settings'          => 'Settings',
-                'shipping'          => 'Shipping',
+                'description'       => 'Mô tả',
+                'general'           => 'Chung',
+                'inventories'       => 'Hàng tồn kho',
+                'meta-description'  => 'Mô tả meta',
+                'price'             => 'Giá',
+                'settings'          => 'Cài đặt',
+                'shipping'          => 'Vận chuyển',
             ],
 
             'attributes' => [
-                'brand'                => 'Brand',
-                'color'                => 'Color',
-                'cost'                 => 'Cost',
-                'description'          => 'Description',
-                'featured'             => 'Featured',
-                'guest-checkout'       => 'Guest Checkout',
-                'height'               => 'Height',
-                'length'               => 'Length',
-                'manage-stock'         => 'Manage Stock',
-                'meta-description'     => 'Meta Description',
-                'meta-keywords'        => 'Meta Keywords',
-                'meta-title'           => 'Meta Title',
-                'name'                 => 'Name',
-                'new'                  => 'New',
-                'price'                => 'Price',
-                'product-number'       => 'Product Number',
-                'short-description'    => 'Short Description',
-                'size'                 => 'Size',
+                'brand'                => 'Thương hiệu',
+                'color'                => 'Màu sắc',
+                'cost'                 => 'Chi phí',
+                'description'          => 'Mô tả',
+                'featured'             => 'Nổi bật',
+                'guest-checkout'       => 'Thanh toán khách',
+                'height'               => 'Chiều cao',
+                'length'               => 'Chiều dài',
+                'manage-stock'         => 'Quản lý hàng tồn kho',
+                'meta-description'     => 'Mô tả meta',
+                'meta-keywords'        => 'Từ khóa meta',
+                'meta-title'           => 'Tiêu đề meta',
+                'name'                 => 'Tên',
+                'new'                  => 'Mới',
+                'price'                => 'Giá',
+                'product-number'       => 'Số sản phẩm',
+                'short-description'    => 'Mô tả ngắn',
+                'size'                 => 'Kích thước',
                 'sku'                  => 'SKU',
-                'special-price'        => 'Special Price',
-                'special-price-from'   => 'Special Price From',
-                'special-price-to'     => 'Special Price To',
-                'status'               => 'Status',
-                'tax-category'         => 'Tax Category',
-                'url-key'              => 'URL Key',
-                'visible-individually' => 'Visible Individually',
-                'weight'               => 'Weight',
-                'width'                => 'Width',
+                'special-price'        => 'Giá đặc biệt',
+                'special-price-from'   => 'Giá đặc biệt từ',
+                'special-price-to'     => 'Giá đặc biệt đến',
+                'status'               => 'Trạng thái',
+                'tax-category'         => 'Danh mục thuế',
+                'url-key'              => 'Khóa URL',
+                'visible-individually' => 'Hiển thị riêng lẻ',
+                'weight'               => 'Trọng lượng',
+                'width'                => 'Chiều rộng',
             ],
 
             'attribute-options' => [
-                'black'  => 'Black',
-                'green'  => 'Green',
+                'black'  => 'Đen',
+                'green'  => 'Xanh lá',
                 'l'      => 'L',
                 'm'      => 'M',
-                'red'    => 'Red',
+                'red'    => 'Đỏ',
                 's'      => 'S',
-                'white'  => 'White',
+                'white'  => 'Trắng',
                 'xl'     => 'XL',
-                'yellow' => 'Yellow',
+                'yellow' => 'Vàng',
             ],
         ],
 
         'category' => [
             'categories' => [
-                'description' => 'Root Category Description',
-                'name'        => 'Root',
+                'description' => 'Mô tả danh mục gốc',
+                'name'        => 'Tên',
             ],
         ],
 
         'cms' => [
             'pages' => [
                 'about-us' => [
-                    'content' => 'About Us Page Content',
-                    'title'   => 'About Us',
+                    'content' => 'Nội dung trang Giới thiệu về chúng tôi',
+                    'title'   => 'Giới thiệu về chúng tôi',
                 ],
 
                 'contact-us' => [
-                    'content' => 'Contact Us Page Content',
-                    'title'   => 'Contact Us',
+                    'content' => 'Nội dung trang Liên hệ với chúng tôi',
+                    'title'   => 'Liên hệ với chúng tôi',
                 ],
 
                 'customer-service' => [
-                    'content' => 'Customer Service Page Content',
-                    'title'   => 'Customer Service',
+                    'content' => 'Nội dung trang Dịch vụ khách hàng',
+                    'title'   => 'Dịch vụ khách hàng',
                 ],
 
                 'payment-policy' => [
-                    'content' => 'Payment Policy Page Content',
-                    'title'   => 'Payment Policy',
+                    'content' => 'Nội dung trang Chính sách thanh toán',
+                    'title'   => 'Chính sách thanh toán',
                 ],
 
                 'privacy-policy' => [
-                    'content' => 'Privacy Policy Page Content',
-                    'title'   => 'Privacy Policy',
+                    'content' => 'Nội dung trang Chính sách bảo mật',
+                    'title'   => 'Chính sách bảo mật',
                 ],
 
                 'refund-policy' => [
-                    'content' => 'Refund Policy Page Content',
-                    'title'   => 'Refund Policy',
+                    'content' => 'Nội dung trang Chính sách hoàn tiền',
+                    'title'   => 'Chính sách hoàn tiền',
                 ],
 
                 'return-policy' => [
-                    'content' => 'Return Policy Page Content',
-                    'title'   => 'Return Policy',
+                    'content' => 'Nội dung trang Chính sách đổi trả',
+                    'title'   => 'Chính sách đổi trả',
                 ],
 
                 'shipping-policy' => [
-                    'content' => 'Shipping Policy Page Content',
-                    'title'   => 'Shipping Policy',
+                    'content' => 'Nội dung trang Chính sách vận chuyển',
+                    'title'   => 'Chính sách vận chuyển',
                 ],
 
                 'terms-conditions' => [
-                    'content' => 'Terms & Conditions Page Content',
-                    'title'   => 'Terms & Conditions',
+                    'content' => 'Nội dung trang Điều khoản & Điều kiện',
+                    'title'   => 'Điều khoản & Điều kiện',
                 ],
 
                 'terms-of-use' => [
-                    'content' => 'Terms of Use Page Content',
-                    'title'   => 'Terms of Use',
+                    'content' => 'Nội dung trang Điều khoản sử dụng',
+                    'title'   => 'Điều khoản sử dụng',
                 ],
 
                 'whats-new' => [
-                    'content' => 'What\'s New page content',
-                    'title'   => 'What\'s New',
+                    'content' => 'Nội dung trang Có gì mới',
+                    'title'   => 'Có gì mới',
                 ],
             ],
         ],
@@ -130,9 +130,9 @@ return [
         'core' => [
             'channels' => [
                 'name'             => 'Default',
-                'meta-title'       => 'Demo store',
-                'meta-keywords'    => 'Demo store meta keyword',
-                'meta-description' => 'Demo store meta description',
+                'meta-title'       => 'Cửa hàng demo',
+                'meta-keywords'    => 'Từ khóa meta của cửa hàng demo',
+                'meta-description' => 'Mô tả meta của cửa hàng demo',
             ],
 
             'currencies' => [
@@ -204,6 +204,7 @@ return [
 
             'locales'    => [
                 'ar'    => 'Arabic',
+                'vi'    => 'Vietnam',
                 'bn'    => 'Bengali',
                 'de'    => 'German',
                 'en'    => 'English',
@@ -222,7 +223,6 @@ return [
                 'tr'    => 'Turkish',
                 'uk'    => 'Ukrainian',
                 'zh_CN' => 'Chinese',
-                'vi'    => 'Vietnam'
             ],
         ],
 
@@ -243,32 +243,32 @@ return [
         'shop' => [
             'theme-customizations' => [
                 'all-products' => [
-                    'name' => 'All Products',
+                    'name' => 'Tất cả sản phẩm',
 
                     'options' => [
-                        'title' => 'All Products',
+                        'title' => 'Tất cả sản phẩm',
                     ],
                 ],
 
                 'bold-collections' => [
                     'content' => [
-                        'btn-title'   => 'View Collections',
-                        'description' => 'Introducing Our New Bold Collections! Elevate your style with daring designs and vibrant statements. Explore striking patterns and bold colors that redefine your wardrobe. Get ready to embrace the extraordinary!',
-                        'title'       => 'Get Ready for our new Bold Collections!',
+                        'btn-title'   => 'Xem bộ sưu tập',
+                        'description' => 'Giới thiệu bộ sưu tập mới của chúng tôi! Nâng cao phong cách của bạn với những thiết kế táo bạo và những tuyên bố rực rỡ. Khám phá các họa tiết nổi bật và màu sắc tươi sáng để định nghĩa lại tủ quần áo của bạn. Chuẩn bị đón nhận những điều phi thường!',
+                        'title'       => 'Chuẩn bị cho bộ sưu tập mới của chúng tôi!',
                     ],
 
-                    'name' => 'Bold Collections',
+                    'name' => 'Bộ sưu tập táo bạo',
                 ],
 
                 'categories-collections' => [
-                    'name' => 'Categories Collections',
+                    'name' => 'Bộ sưu tập danh mục',
                 ],
 
                 'featured-collections' => [
-                    'name' => 'Featured Collections',
+                    'name' => 'Bộ sưu tập nổi bật',
 
                     'options' => [
-                        'title' => 'Featured Products',
+                        'title' => 'Sản phẩm nổi bật',
                     ],
                 ],
 
