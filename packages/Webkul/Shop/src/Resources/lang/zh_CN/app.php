@@ -389,7 +389,7 @@ return [
         'media' => [
             'index' => [
                 'add-attachments' => '添加附件',
-                'add-image'       => '添加图片',
+                'add-image'       => '添加图片/视频',
             ],
         ],
 
@@ -977,6 +977,12 @@ return [
                 'greeting'    => '欢迎加入我们的新闻通讯！',
                 'subject'     => '您！订阅我们的新闻通讯',
                 'unsubscribe' => '取消订阅',
+            ],
+
+            'reminder' => [
+                'already-paid'    => '如果您已经付款，请忽略此消息。',
+                'invoice-overdue' => '这是一个友好的提醒，您的发票已逾期。请尽快付款。',
+                'subject'         => '发票提醒',
             ],
         ],
 

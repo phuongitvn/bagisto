@@ -3,38 +3,41 @@
 return [
     'users' => [
         'sessions' => [
-            'email'                => 'Adres e-mail',
-            'forget-password-link' => 'Zapomniałeś hasła?',
-            'password'             => 'Hasło',
-            'submit-btn'           => 'Zaloguj się',
-            'title'                => 'Zaloguj się',
+            'email'                  => 'Adres e-mail',
+            'forget-password-link'   => 'Zapomniałeś hasła?',
+            'password'               => 'Hasło',
+            'powered-by-description' => 'Napędzane przez :bagisto, projekt open-source autorstwa :webkul.',
+            'submit-btn'             => 'Zaloguj się',
+            'title'                  => 'Zaloguj się',
         ],
 
         'forget-password' => [
             'create'    => [
-                'email'           => 'Zarejestrowany adres e-mail',
-                'email-not-exist' => 'E-mail nie istnieje',
-                'page-title'      => 'Zapomniałem hasła',
-                'reset-link-sent' => 'Link do resetowania hasła wysłany',
-                'sign-in-link'    => 'Powrót do logowania?',
-                'submit-btn'      => 'Resetuj',
-                'title'           => 'Odzyskaj hasło',
+                'email'                  => 'Zarejestrowany adres e-mail',
+                'email-not-exist'        => 'E-mail nie istnieje',
+                'page-title'             => 'Zapomniałem hasła',
+                'powered-by-description' => 'Napędzane przez :bagisto, projekt open-source autorstwa :webkul.',
+                'reset-link-sent'        => 'Link do resetowania hasła wysłany',
+                'sign-in-link'           => 'Powrót do logowania?',
+                'submit-btn'             => 'Resetuj',
+                'title'                  => 'Odzyskaj hasło',
             ],
         ],
 
         'reset-password' => [
-            'back-link-title'  => 'Powrót do logowania?',
-            'confirm-password' => 'Potwierdź hasło',
-            'email'            => 'Zarejestrowany adres e-mail',
-            'password'         => 'Hasło',
-            'submit-btn'       => 'Zresetuj hasło',
-            'title'            => 'Zresetuj hasło',
+            'back-link-title'        => 'Powrót do logowania?',
+            'confirm-password'       => 'Potwierdź hasło',
+            'email'                  => 'Zarejestrowany adres e-mail',
+            'password'               => 'Hasło',
+            'powered-by-description' => 'Napędzane przez :bagisto, projekt open-source autorstwa :webkul.',
+            'submit-btn'             => 'Zresetuj hasło',
+            'title'                  => 'Zresetuj hasło',
         ],
     ],
 
     'notifications' => [
         'description-text' => 'Wypisz wszystkie powiadomienia',
-        'marked-success'   => 'Powiadomienie oznaczone jako przeczytane',
+        'marked-success'   => 'Wszystkie powiadomienia zostały oznaczone jako przeczytane',
         'no-record'        => 'Brak dostępnych powiadomień',
         'of'               => 'z',
         'per-page'         => 'na stronę',
@@ -716,7 +719,6 @@ return [
                     'payment-method'   => 'Metoda Płatności',
                     'status'           => 'Status',
                     'title'            => 'Szczegóły Transakcji',
-                    'transaction-data' => 'Dane Transakcji',
                     'transaction-id'   => 'ID Transakcji',
                 ],
             ],
@@ -1061,6 +1063,7 @@ return [
                     'date-time'           => 'Date Time',
                     'delete'              => 'Delete',
                     'edit'                => 'Edit',
+                    'false'               => 'Fałsz',
                     'file'                => 'File',
                     'id'                  => 'ID',
                     'image'               => 'Image',
@@ -1073,6 +1076,7 @@ return [
                     'select'              => 'Select',
                     'text'                => 'Text',
                     'textarea'            => 'Textarea',
+                    'true'                => 'Prawda',
                     'type'                => 'Type',
                     'unique'              => 'Unique',
                 ],
@@ -1409,6 +1413,7 @@ return [
                     'gender'         => 'Płeć',
                     'group'          => 'Grupa',
                     'id'             => 'ID klienta',
+                    'id-value'       => 'Identyfikator - :id',
                     'inactive'       => 'Nieaktywny',
                     'method-error'   => 'Błąd! Wykryto błędną metodę, sprawdź konfigurację masowej akcji',
                     'name'           => 'Nazwa klienta',
@@ -2525,6 +2530,7 @@ return [
                     'general'           => 'Ogólne',
                     'group-separator'   => 'Separator Grup',
                     'name'              => 'Nazwa',
+                    'separator-note'    => 'Pole :attribute może akceptować tylko operatory przecinka (,) i kropki (.)',
                     'save-btn'          => 'Zapisz Walutę',
                     'symbol'            => 'Symbol',
                     'title'             => 'Utwórz nową Walutę',
@@ -2573,6 +2579,7 @@ return [
                     'allowed-errors'      => 'Dozwolone błędy',
                     'back-btn'            => 'Powrót',
                     'create-update'       => 'Utwórz/Aktualizuj',
+                    'current-file'        => 'Aktualnie przesłany plik',
                     'delete'              => 'Usuń',
                     'download-sample'     => 'Pobierz Przykład',
                     'field-separator'     => 'Separator pól',
@@ -2800,6 +2807,7 @@ return [
                         'title' => 'Edytuj Kategorie Podatków',
                     ],
 
+                    'can-not-delete' => 'Nie można usunąć kategorii przypisanych do stawek podatkowych.',
                     'create-success' => 'Nowa Kategoria Podatków utworzona',
                     'delete-failed'  => 'Usuwanie Kategorii Podatków nie powiodło się',
                     'delete-success' => 'Kategoria Podatków usunięta pomyślnie',
@@ -3078,17 +3086,18 @@ return [
                 'title'      => 'Motywy',
 
                 'datagrid' => [
-                    'active'       => 'Aktywny',
-                    'channel_name' => 'Nazwa kanału',
-                    'delete'       => 'Usuń',
-                    'id'           => 'ID',
-                    'inactive'     => 'Nieaktywny',
-                    'name'         => 'Nazwa',
-                    'sort-order'   => 'Kolejność sortowania',
-                    'status'       => 'Status',
-                    'theme'        => 'Temat',
-                    'type'         => 'Typ',
-                    'view'         => 'Widok',
+                    'active'        => 'Aktywny',
+                    'channel_name'  => 'Nazwa kanału',
+                    'change-status' => 'Zmień status',
+                    'delete'        => 'Usuń',
+                    'id'            => 'ID',
+                    'inactive'      => 'Nieaktywny',
+                    'name'          => 'Nazwa',
+                    'sort-order'    => 'Kolejność sortowania',
+                    'status'        => 'Status',
+                    'theme'         => 'Temat',
+                    'type'          => 'Typ',
+                    'view'          => 'Widok',
                 ],
             ],
 
@@ -3345,7 +3354,7 @@ return [
                 'title' => 'Ogólne',
 
                 'general' => [
-                    'info'  => 'Ustaw opcje jednostek.',
+                    'info'  => 'Ustaw opcje jednostek i włącz lub wyłącz ścieżki nawigacyjne.',
                     'title' => 'Ogólne',
 
                     'unit-options' => [
@@ -3363,7 +3372,7 @@ return [
                 ],
 
                 'content' => [
-                    'info'  => 'Ustaw opcje porównywania, opcje listy życzeń, opcje wyszukiwania obrazów, stopkę, przełącz stopkę i niestandardowe skrypty.',
+                    'info'  => 'Ustaw tytuł oferty w nagłówku i niestandardowe skrypty.',
                     'title' => 'Zawartość',
 
                     'header-offer' => [
@@ -3383,7 +3392,7 @@ return [
                 ],
 
                 'design' => [
-                    'info'  => 'Ustaw logo i ikonę favicon.',
+                    'info'  => 'Ustaw logo i ikonę favicon dla panelu administratora.',
                     'title' => 'Projektowanie',
 
                     'admin-logo' => [
@@ -3395,7 +3404,7 @@ return [
                 ],
 
                 'magic-ai' => [
-                    'info'  => 'Ustaw opcje Magic AI.',
+                    'info'  => 'Ustaw opcje Magic AI i zezwól na niektóre opcje automatyzacji tworzenia treści.',
                     'title' => 'Magiczna AI',
 
                     'settings' => [
@@ -3618,7 +3627,7 @@ return [
 
                 'inventory' => [
                     'title'      => 'Stan magazynu',
-                    'title-info' => 'Skonfiguruj ustawienia zapasów, aby umożliwić zamówienia z oczekiwaniem, ustawić minimalne i maksymalne ilości w koszyku oraz zdefiniować próg braku towaru.',
+                    'title-info' => 'Skonfiguruj ustawienia zapasów, aby umożliwić zamówienia z oczekiwaniem i zdefiniować próg braku towaru.',
 
                     'product-stock-options' => [
                         'allow-back-orders'       => 'Zezwalaj na zamówienia z oczekiwaniem',
@@ -3657,7 +3666,7 @@ return [
 
                 'captcha' => [
                     'info'  => 'Ustaw klucz witryny, klucz tajny i status.',
-                    'title' => 'Captcha',
+                    'title' => 'Google Captcha',
 
                     'credentials' => [
                         'secret-key' => 'Klucz tajny',
@@ -3674,7 +3683,7 @@ return [
                 ],
 
                 'settings' => [
-                    'settings-info' => 'Ustaw subskrypcje newslettera, weryfikacje emaili i logowanie społecznościowe.',
+                    'settings-info' => 'Ustaw listę życzeń, przekierowanie logowania, subskrypcje newslettera, opcję domyślnej grupy, weryfikację e-maili i logowanie społecznościowe.',
                     'title'         => 'Ustawienia',
 
                     'login-as-customer' => [
@@ -3759,16 +3768,20 @@ return [
                 ],
 
                 'notifications' => [
-                    'cancel-order'                                     => 'Wyślij powiadomienie po anulowaniu zamówienia',
-                    'customer'                                         => 'Wyślij dane logowania klienta po rejestracji',
+                    'cancel-order'                                     => 'Wyślij powiadomienie do klienta po anulowaniu zamówienia',
+                    'cancel-order-mail-to-admin'                       => 'Wyślij powiadomienie e-mail do administratora po anulowaniu zamówienia',
+                    'customer'                                         => 'Wyślij dane konta klienta po rejestracji',
                     'customer-registration-confirmation-mail-to-admin' => 'Wyślij e-mail potwierdzający do administratora po rejestracji klienta',
-                    'info'                                             => 'Skonfiguruj opcje zapasów produktu, aby umożliwić zamówienia wsteczne, ustawić minimalne i maksymalne ilości w koszyku oraz zdefiniować progi braku towaru.',
-                    'new-admin'                                        => 'Wyślij e-mail potwierdzający do administratora po złożeniu nowego zamówienia',
-                    'new-inventory-source'                             => 'Wyślij e-mail powiadomienia do źródła inwentarza po utworzeniu przesyłki',
+                    'info'                                             => 'Skonfiguruj odbieranie wiadomości e-mail w celu weryfikacji konta, potwierdzenia zamówień, aktualizacji faktur, zwrotów, wysyłek i anulowania zamówień.',
+                    'new-inventory-source'                             => 'Wyślij e-mail powiadomienia do źródła zapasów po utworzeniu wysyłki',
                     'new-invoice'                                      => 'Wyślij e-mail powiadomienia do klienta po utworzeniu nowej faktury',
+                    'new-invoice-mail-to-admin'                        => 'Wyślij e-mail powiadomienia do administratora po utworzeniu nowej faktury',
                     'new-order'                                        => 'Wyślij e-mail potwierdzający do klienta po złożeniu nowego zamówienia',
+                    'new-order-mail-to-admin'                          => 'Wyślij e-mail potwierdzający do administratora po złożeniu nowego zamówienia',
                     'new-refund'                                       => 'Wyślij e-mail powiadomienia do klienta po utworzeniu zwrotu',
-                    'new-shipment'                                     => 'Wyślij e-mail powiadomienia do klienta po utworzeniu przesyłki',
+                    'new-refund-mail-to-admin'                         => 'Wyślij e-mail powiadomienia do administratora po utworzeniu nowego zwrotu',
+                    'new-shipment'                                     => 'Wyślij e-mail powiadomienia do klienta po utworzeniu wysyłki',
+                    'new-shipment-mail-to-admin'                       => 'Wyślij e-mail powiadomienia do administratora po utworzeniu nowej wysyłki',
                     'registration'                                     => 'Wyślij e-mail potwierdzający po rejestracji klienta',
                     'title'                                            => 'Powiadomienia',
                     'verification'                                     => 'Wyślij e-mail weryfikacyjny po rejestracji klienta',
@@ -4109,6 +4122,10 @@ return [
                 'transactions'             => 'Transakcje',
                 'url-rewrites'             => 'Przekierowania URL',
                 'users'                    => 'Użytkownicy',
+            ],
+
+            'powered-by' => [
+                'description' => 'Napędzane przez :bagisto, projekt open-source autorstwa :webkul.',
             ],
         ],
 

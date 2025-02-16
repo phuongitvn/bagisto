@@ -389,7 +389,7 @@ return [
         'media' => [
             'index' => [
                 'add-attachments' => 'Agregar adjuntos',
-                'add-image'       => 'Añadir imagen',
+                'add-image'       => 'Agregar Imagen/Video',
             ],
         ],
 
@@ -977,6 +977,12 @@ return [
                 'greeting'    => '¡Bienvenido a nuestro boletín!',
                 'subject'     => '¡Usted! Suscríbase a nuestro boletín',
                 'unsubscribe' => 'Darse de baja',
+            ],
+
+            'reminder' => [
+                'already-paid'    => 'Si ya ha realizado el pago, ignore este mensaje.',
+                'invoice-overdue' => 'Este es un recordatorio amable de que su factura está vencida. Le pedimos amablemente que realice el pago lo antes posible.',
+                'subject'         => 'Recordatorio de factura',
             ],
         ],
 

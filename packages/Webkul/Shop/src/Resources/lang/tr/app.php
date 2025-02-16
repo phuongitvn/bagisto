@@ -389,7 +389,7 @@ return [
         'media' => [
             'index' => [
                 'add-attachments' => 'Ek Dosyalar Ekle',
-                'add-image'       => 'Resim ekle',
+                'add-image'       => 'Resim/Video Ekle',
             ],
         ],
 
@@ -978,6 +978,12 @@ return [
                 'greeting'    => 'Bültenimize hoş geldiniz!',
                 'subject'     => 'Bültenimize Abone Oldunuz',
                 'unsubscribe' => 'Aboneliği iptal et',
+            ],
+
+            'reminder' => [
+                'already-paid'    => 'Eğer ödemeyi zaten yaptıysanız, lütfen bu mesajı dikkate almayın.',
+                'invoice-overdue' => 'Bu, faturanızın vadesinin geçtiğine dair nazik bir hatırlatmadır. Lütfen ödemeyi en kısa sürede yapınız.',
+                'subject'         => 'Fatura hatırlatma',
             ],
         ],
 
