@@ -222,7 +222,7 @@ return [
                 'tr'    => 'Turkish',
                 'uk'    => 'Ukrainian',
                 'zh_CN' => 'Chinese',
-                'vi'    => 'Vietnam'
+                'vi'    => 'Vietnam',
             ],
         ],
 
