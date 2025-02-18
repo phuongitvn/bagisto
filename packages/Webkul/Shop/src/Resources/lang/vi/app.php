@@ -833,7 +833,7 @@ return [
             ],
         ],
 
-'coupon' => [
+        'coupon' => [
             'already-applied' => 'Mã giảm giá đã được áp dụng.',
             'applied'         => 'Mã giảm giá đã được áp dụng',
             'apply'           => 'Áp dụng mã giảm giá',
